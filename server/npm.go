@@ -245,7 +245,7 @@ func fetchPackageInfo(name string, version string) (info NpmPackageInfo, err err
 	}
 
 	if isFullVersion {
-		url += "/" + version
+		// url += "/" + version
 	}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
