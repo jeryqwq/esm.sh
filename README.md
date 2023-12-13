@@ -506,3 +506,4 @@ one of the world's largest and fastest cloud network platforms.
 ## Self-Hosting
 
 To host esm.sh by yourself, check the [hosting](./HOSTING.md) documentation.
+sudo go run main.go --config=config.json --dev
